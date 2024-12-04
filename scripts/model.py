@@ -9,8 +9,9 @@ import torch.nn as nn
 from torch.nn import functional as F
 import random
 
+
 def get_globals():
-    from network_project.config import a, b, c, d, e, f, g, h
+    from scripts.config import a, b, c, d, e, f, g, h
 
     vocab_size = a
     ncol = b
